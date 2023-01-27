@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margine:0;
+	box-sizing: border-box;
+}
+body{
+	background-color: red
+ 	font-family: 'Poppins' ,sans-serif;
+ 	text-shadow: unset;
+}
+.head{
+	background-color: red;
+	color: black;
+	margin-bottom: 30px;
+	padding: 30px 0;
+	grid-column: 1/-1;
+	text-decoration: all;
+	text-align: center;
+	font-weight: 400: 
+	font-size: 30px;
+	letter-spacing: 5px:
+	margin-bottom: 5px;
+}
+.menu{
+	padding: 0 10px 30px 10px;
+	display: grid;
+	grid-column: repeat( auto-fit, minmax
+		(350px,1fr));
+}
